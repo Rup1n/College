@@ -209,7 +209,7 @@ h3 {
     transition: 0.5s;
 }
 .layer:hover {
-    background: rgba (226, 0, 0, 0.7);
+    background: rgba(226, 0, 0, 0.7);
 }
 .layer h3 {
     width: 100%;
@@ -226,4 +226,62 @@ h3 {
 .layer:hover h3 {
     bottom: 40%;
     opacity: 1;
+}
+/* facilities */
+.facilities {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.facilities-col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.facilities-col img {
+    width: 100%;
+    border-radius: 10px;
+}
+.facilities-col p {
+    padding: 0;
+}
+.facilities-col h3 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    text-align: left;
+}
+/* testimonials */
+.testimonials {
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+.testimonials-col {
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: #fff3f3;
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+}
+.testimonials-col img {
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+.testimonials-col p {
+    padding: 0;
+}
+.testimonials-col h3 {
+    margin-top: 15px;
+    text-align: left;
+}
+.testimonials-col .fa {
+    color: #f44336;
 }
