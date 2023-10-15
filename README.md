@@ -1,2 +1,2 @@
 # College
-This is a website for collage!
+This is a website for college!
